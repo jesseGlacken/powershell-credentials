@@ -1,39 +1,16 @@
 {
-  "_from": "powershell-credentials",
-  "_id": "powershell-credentials@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-fLhjy0g7f1faejnMkFVcq70m/SlWWfHB4Ccan0FlEfInFYT1Xp2djovTUacevsz22nH6uc0r4qvR9S8h4Sj/lQ==",
-  "_location": "/powershell-credentials",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "powershell-credentials",
-    "name": "powershell-credentials",
-    "escapedName": "powershell-credentials",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "powershell-credentials",
+  "version": "0.1.1",
+  "description": "Read stored credentials from a CliXML file, and transform them to a JavaScript object. Requires node-powershell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/powershell-credentials/-/powershell-credentials-0.1.0.tgz",
-  "_shasum": "cb7d368bd732abb0ac015f7538ad001db5ef8811",
-  "_spec": "powershell-credentials",
-  "_where": "C:\\git\\psc",
-  "author": {
-    "name": "Jesse Glacken"
+  "homepage": "https://github.com/jesseGlacken/powershell-credentials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesseGlacken/powershell-credentials.git"
   },
-  "bundleDependencies": false,
-  "dependencies": {
-    "esm": "^3.2.25",
-    "node-powershell": "^4.0.0"
-  },
-  "deprecated": false,
-  "description": "Read stored credentials from a CliXML file, and transform them to a JavaScript object. Requires `node-powershell`.",
-  "devDependencies": {},
   "keywords": [
     "powershell",
     "credentials",
@@ -41,11 +18,11 @@
     "password",
     "clixml"
   ],
+  "author": "Jesse Glacken",
   "license": "ISC",
-  "main": "index.js",
-  "name": "powershell-credentials",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node-powershell": "^4.0.0"
   },
-  "version": "0.1.0"
+  "devDependencies": {}
 }
