@@ -2,6 +2,11 @@
 
 Read stored credentials from a CliXML file, and transform them to a JavaScript object. Requires `node-powershell`.
 
+## Install
+```
+npm install --save powershell-credentials
+```
+
 ## Usage
 
 1. Create a set of stored credentials as a CliXML file in PowerShell using the `Get-Credential` and `Export-Clixml` commands.

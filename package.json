@@ -1,6 +1,6 @@
 {
   "name": "powershell-credentials",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Read stored credentials from a CliXML file, and transform them to a JavaScript object. Requires node-powershell.",
   "main": "index.js",
   "scripts": {
